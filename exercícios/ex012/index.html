@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <p>Para aparecer o play do vídeo eu tive que escrever 'CONTROLS'</p>
+    <P>Para ficar compativel com todos os navegadores eu carrego todos os videos em formatos diferentes, mas no geral o MP4 sempre funciona em todos</P>
+    <p>A ordem dos arquivos carregados é muito importante, ele vai tentar carregar de cima pra baixo para ver se é compativel com o navegador. Se não for compativel vai abrir a frase da tag 'p'</p>
+    <video width="500" poster="imagens/capa.png" controls autoplay loop> 
+        <source src="midea/meuvideo.webm.webm" type="video/webm">
+        <source src="midea/meuvideo.original.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade coma reprodução do vídeo</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p>Para colocar um vídeo do youtube, vou no vídeo que eu quero e clico em compartilahr, vai aparecer a opção 'incorporar' dai eu copio. Tentei com um vídeo da Damares e não deu certo, acho que por causa dos direitos autorais</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6iw6GmoX3Lc?si=omAoIAvcTv9lW5Ke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

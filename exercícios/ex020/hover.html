@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de HOVER</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: brown;
+            width: 300px;
+        }
+
+        div:hover {
+            color:brown;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de HOVER</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO aparece</p>
+    </div>
+    <p>fim do exemplo</p>
+    
+<h1>Vou explicar aqui o que aprendi</h1>
+    <p>Nesse excercício, estou aprendendo como colocar um texto escondido em uma div. 
+        Quero fazer uma coisa que quando o mouse passar em cima apareça outra, do tipo 'clique e fale com essa empresa' 
+        por isso preciso esconderum paragrafo, a frase que eu quero dentro da div. Nesse exemplo estou criando 
+        um style aqui mesmo.
+        O simbolo 'div > p' esta dizendo que tem um paragrafo escondido dentro dessa div. 
+        O Hover é que da esse efeito de aparecer quando passa o mouse
+    </p>
+</body>
+</html>
